@@ -9,8 +9,8 @@ Date:03-02-2016
 print 'Welcome to the taxes and tip calculator!'
 
 #Collecting user inputs 
-meal_price = float(raw_input("What is the price before tax?"))
-tax = float(raw_input("What are the taxes? (in %)"))
+meal_price = float(raw_input("What is the price before tax? "))
+tax = float(raw_input("What are the taxes? (in %) "))
 tip = float(raw_input("What do you want to tip? (in %) "))
 
 #computing the  meal price with tax included.
@@ -24,3 +24,4 @@ tip=meal_price*tip*0.01
 total=meal_price+tip
 
 print 'The price you need to pay is: %f.'%(total)
+
